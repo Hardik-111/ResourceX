@@ -76,21 +76,24 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
+  /* background: linear-gradient(to right, #16222a, #3a6073); */
+  /* background: linear-gradient(to left, #e1625e, #418ee6); */
+  background: linear-gradient(to right, #1b3040, #414345);
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  opacity: 0.95;
 }
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #333;
+  color: #fff;
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: rgb(235, 229, 229);
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
@@ -460,7 +463,12 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+  /* background: linear-gradient(to right, #00c9ff, #92fe9d); */
+  /* background: linear-gradient(to top, #232526, #414345); */
+  /* background: linear-gradient(to top, #232526, #4c4d4f); */
+  background: linear-gradient(to right, #1b3040, #414345);
+
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -585,12 +593,17 @@ label {
 }
 /* Footer Section*/
 #footer {
-  background: #f6f6f6;
+  /* background: radial-gradient(circle, #3a4145, #ffffff); */
+  /* background: linear-gradient(to right, #1b3040, #414345); */
+  /* background: linear-gradient(to right, #344048, #414345); */
+background-color: rgb(254, 255, 255);
+
   padding: 30px 0;
 }
 #footer p {
-  color: #888;
+  color: rgb(32, 36, 38);
   font-size: 14px;
+  font-weight: 500;
 }
 #footer a {
   color: #608dfd;
