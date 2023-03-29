@@ -34,14 +34,14 @@
 // export default App;
 
 import React, { useState, useEffect } from "react";
-import { Navigation } from "./components/navigation";
-import { Header } from "./components/header";
+import { Navigation } from "./components/Navigation";
+import { Header } from "./components/Header";
 // import { Features } from "./components/features";
-import { About } from "./components/about";
-import { Departments} from "./components/dept";
+import { About } from "./components/About";
+import { Departments} from "./components/Dept";
 // import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
-import { Contact } from "./components/contact";
+import { Contact } from "./components/Contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
