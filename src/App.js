@@ -1,15 +1,15 @@
 // import Home from "./pages/Home/Home";
-import Login from "./pages/login/Login";
+// import Login from "./pages/login/Login";
 // import Profile from "./pages/profile/Profile";
-import Register from "./pages/register/Register";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Redirect,
-} from "react-router-dom";
-import { useContext } from "react";
-import { AuthContext } from "./context/AuthContext";
+// import Register from "./pages/register/Register";
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   Route,
+//   Redirect,
+// } from "react-router-dom";
+// import { useContext } from "react";
+// import { AuthContext } from "./context/AuthContext";
 
 // function App() {
 //   const { user } = useContext(AuthContext);
@@ -36,10 +36,10 @@ import { AuthContext } from "./context/AuthContext";
 import React, { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
-import { Features } from "./components/features";
+// import { Features } from "./components/features";
 import { About } from "./components/about";
-import { Departments, Gallery } from "./components/dept";
-import { Testimonials } from "./components/testimonials";
+import { Departments} from "./components/dept";
+// import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";

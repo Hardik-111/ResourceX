@@ -1,106 +1,106 @@
 {
   "Header": {
     "title": "Welcome to The Resource-X",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "paragraph": "One Stop Destination for all your study needs. Every resource related to college would be available here"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "paragraph": "We are a team of Enthusiatic individuals who are here to help you with all college related stuffs. You would find all resources like notes, tutorials, papers, books at this website.If you need any help, we are always there for you.Just mail us or connect with us by sending your feedback to us in form below. Happy Exploring😊"
   },
   "Departments": [
     {
       "title": "First Years",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "largeImage": "assets/img/portfolio/01-large.jpg",
+      "smallImage": "assets/img/portfolio/01-small.jpg"
     },
     {
       "title": "Computer Science and Engineering",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "largeImage": "assets/img/portfolio/09-large.jpg",
+      "smallImage": "assets/img/portfolio/09-small.jpg"
     },
     {
       "title": "Electronics and Communication",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "largeImage": "assets/img/portfolio/02-large.jpg",
+      "smallImage": "assets/img/portfolio/02-small.jpg"
     },
     {
       "title": "Electrical Engineering",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "largeImage": "assets/img/portfolio/03-large.jpg",
+      "smallImage": "assets/img/portfolio/03-small.jpg"
     },
     {
       "title": "Mechanical Engineering",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "largeImage": "assets/img/portfolio/04-large.jpg",
+      "smallImage": "assets/img/portfolio/04-small.jpg"
     },
     {
       "title": "Civil Engineering",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "largeImage": "assets/img/portfolio/05-large.jpg",
+      "smallImage": "assets/img/portfolio/05-small.jpg"
     },
     {
       "title": "Chemical Engineering",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "largeImage": "assets/img/portfolio/06-large.jpg",
+      "smallImage": "assets/img/portfolio/06-small.jpg"
     },
     {
       "title": "Biotechnology",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "largeImage": "assets/img/portfolio/07-large.jpg",
+      "smallImage": "assets/img/portfolio/07-small.jpg"
     },
     {
       "title": "PIE",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "largeImage": "assets/img/portfolio/08-large.jpg",
+      "smallImage": "assets/img/portfolio/08-small.jpg"
     }
     
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
+      "img": "assets/img/testimonials/01.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "John Doe"
     },
     {
-      "img": "img/testimonials/02.jpg",
+      "img": "assets/img/testimonials/02.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "Johnathan Doe"
     },
     {
-      "img": "img/testimonials/03.jpg",
+      "img": "assets/img/testimonials/03.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "John Doe"
     },
     {
-      "img": "img/testimonials/04.jpg",
+      "img": "assets/img/testimonials/04.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "Johnathan Doe"
     },
     {
-      "img": "img/testimonials/05.jpg",
+      "img": "assets/img/testimonials/05.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "John Doe"
     },
     {
-      "img": "img/testimonials/06.jpg",
+      "img": "assets/img/testimonials/06.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "Johnathan Doe"
     }
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
+      "img": "assets/img/team/01.jpg",
       "name": "Ajit Kumar Maurya"
     },
     {
-      "img": "img/team/02.jpg",
+      "img": "assets/img/team/02.jpg",
       "name": "Akash gupta"
     },
     {
-      "img": "img/team/03.jpg",
+      "img": "assets/img/team/03.jpg",
       "name": "Hardik Kumar Singh"
     },
     {
-      "img": "img/team/04.jpg",
+      "img": "assets/img/team/04.jpg",
       "name": "Ganesh Patidar"
     }
   ],
@@ -108,7 +108,7 @@
     "address": "PD Tandon Hostel, MNNIT Allahabad, Prayagraj, UP ",
     "phone": "+91 6969696969",
 
-    "email": "resourcex@gmail..com",
+    "email": "resourcexteam@gmail.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"

@@ -8,8 +8,8 @@ export const Departments = (props) => {
         <div className="section-title">
           <h2>Departments</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Explore all the resources related to all Departments at one place.
+            One Stop Destination for all your study needs!
           </p>
         </div>
         <div className="row">

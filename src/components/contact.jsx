@@ -7,6 +7,7 @@ const initialState = {
   email: "",
   message: "",
 };
+<script type="text/javascript" src="https://unpkg.com/default-passive-events"></script>
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
 
@@ -98,8 +99,8 @@ export const Contact = (props) => {
             <div className="contact-item">
               <h3>Contact Info</h3>
               <p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1578.1789739445321!2d81.86741007565874!3d25.49617640081463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399ab587ea5f59a1%3A0xf557387c8067a655!2sStudent%20Activity%20Centre%2C%20MNNIT!5e1!3m2!1sen!2sin!4v1680099371095!5m2!1sen!2sin" title="myFrame" width="250" height="250"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 <span>
-                  
                   <i className="fa fa-map-marker"></i> Address
                 </span>
                 {props.data ? props.data.address : "loading"}

@@ -451,7 +451,22 @@ header .intro-text {
 }
 #team .team-img {
   width: 240px;
+  border-radius: 50%;
 }
+#team .team-img:hover {
+  width: 240px;
+  transform:scale(0.9);
+  border-radius: 50%;
+  /* animation: rotation 2s infinite linear; */
+}
+/* @keyframes rotation{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(359deg);
+  }
+} */
 #team .thumbnail {
   background: transparent;
   border: 0;
@@ -459,6 +474,11 @@ header .intro-text {
 #team .thumbnail .caption {
   padding: 10px 0 0;
   color: #888;
+}
+#team .thumbnail .caption:hover {
+  padding: 10px 0 0;
+  color: #888;
+  transform: scale(1.2);
 }
 /* Contact Section */
 #contact {

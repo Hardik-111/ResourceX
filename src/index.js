@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // import App from './App';
-import { AuthContextProvider } from './context/AuthContext';
+// import { AuthContextProvider } from './context/AuthContext';
 // import Home from './pages/Home/Home';
-import Login from './pages/login/Login';
+// import Login from './pages/login/Login';
 // import Register from './pages/register/Register';
 
 import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
+// import * as serviceWorker from './serviceWorker';
 
 // ReactDOM.render(
 //   <React.StrictMode>
@@ -32,4 +32,4 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 // serviceWorker.unregister();
-serviceWorker.register();
+// serviceWorker.register();
