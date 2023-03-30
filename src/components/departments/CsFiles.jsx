@@ -33,7 +33,7 @@ export const Resources = () => {
             One Stop Destination for all your study needs!
           </p>
         </div>
-        <div className="row">
+        <div className="row1">
         <StyledEngineProvider injectFirst>
 
             <div className="card1">

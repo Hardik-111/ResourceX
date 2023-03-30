@@ -76,9 +76,7 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  /* background: linear-gradient(to right, #16222a, #3a6073); */
-  /* background: linear-gradient(to left, #e1625e, #418ee6); */
-  /* background: linear-gradient(to right, #1b3040, #414345); */
+  
   background: linear-gradient(to right, #232526, #414345);
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
@@ -405,7 +403,7 @@ header .intro-text {
 }
 
  /* Card Section */
- .row{
+ .row1{
   display: flex;
   /* margin: 20px 20px 20px 20px; */
   /* width: 70%; */
@@ -514,11 +512,6 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
-  /* background: linear-gradient(to right, #00c9ff, #92fe9d); */
-  /* background: linear-gradient(to top, #232526, #414345); */
-  /* background: linear-gradient(to top, #232526, #4c4d4f); */
-  /* background: linear-gradient(to right, #1b3040, #414345); */
   background: linear-gradient(to top, #232526, #414345);
 
   color: rgba(255, 255, 255, 0.75);
@@ -571,7 +564,7 @@ label {
   font-size: 12px;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
-  float: left;
+  /* float: left; */
 }
 #contact .form-control {
   display: block;
