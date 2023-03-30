@@ -404,7 +404,6 @@ header .intro-text {
   opacity: 1;
 }
 
-<<<<<<< HEAD
  /* Card Section */
  .row{
   display: flex;
@@ -435,16 +434,6 @@ header .intro-text {
   /* color:red; */
 
 
-=======
-/* Card Section */
-
-/*
-.bg-image hover-overlay{
-  position: absolute;
-  height: 40vh;
-  width: fit-content;
-} */
->>>>>>> 4444e246fb29724f74645199b4e4f13c74ae1964
 
 /* Testimonials Section */
 #testimonials {
