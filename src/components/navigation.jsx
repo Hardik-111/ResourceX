@@ -1,4 +1,6 @@
 import React from "react";
+import Login  from "../pages/login/Login";
+// import {Link} from "react-router-dom";
 
 export const Navigation = (props) => {
   return (
@@ -23,8 +25,7 @@ export const Navigation = (props) => {
 
         <div
           className="collapse navbar-collapse"
-          id="bs-example-navbar-collapse-1"
-        >
+          id="bs-example-navbar-collapse-1">
           <ul className="nav navbar-nav navbar-right">
             <li>
               <a href="#portfolio" className="page-scroll">
@@ -42,7 +43,11 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
+<<<<<<< HEAD
               <a href="/register" className="page-scroll1">
+=======
+              <a href="/register" className="page-scroll2">
+>>>>>>> 1036aed9f0d21146d774c6335f929420fe391fdc
                 SignUp
               </a>
             </li>
@@ -51,7 +56,15 @@ export const Navigation = (props) => {
                 Contact
               </a>
             </li>
+<<<<<<< HEAD
             
+=======
+            <li> 
+            
+              <a href="/register" className="page-scroll1">SignUp</a>
+            </li>
+       
+>>>>>>> 1036aed9f0d21146d774c6335f929420fe391fdc
           </ul>
         </div>
       </div>

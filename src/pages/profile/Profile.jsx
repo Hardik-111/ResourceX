@@ -1,6 +1,6 @@
 import "./profile.css";
-import Topbar from "../../components/topbar/Topbar";
-import Sidebar from "../../components/sidebar/Sidebar";
+// import Topbar from "../../components/topbar/Topbar";
+// import Sidebar from "../../components/sidebar/Sidebar";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams } from "react-router";
@@ -20,9 +20,9 @@ export default function Profile() {
 
   return (
     <>
-      <Topbar />
+      {/* <Topbar /> */}
       <div className="profile">
-        <Sidebar />
+        {/* <Sidebar /> */}
         <div className="profileRight">
           <div className="profileRightTop">
             <div className="profileCover">

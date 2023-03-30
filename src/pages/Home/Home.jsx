@@ -2,12 +2,8 @@ import "./home.css"
 
 import "./home.css"
 import React, { useState, useEffect } from "react";
-// import { Navigation } from "/components/navigation";
-
-// import { Features } from "./components/features";
-
-// import { Testimonials } from "./components/testimonials";
-
+// import { Features } from "./components/Features";
+// import { Testimonials } from "./components/Testimonials";
 import JsonData from "../../data/data.json";
 import SmoothScroll from "smooth-scroll";
 import { Navigation } from "../../components/Navigation";
