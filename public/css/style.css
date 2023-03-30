@@ -402,6 +402,38 @@ header .intro-text {
 .hover-bg:hover .hover-text {
   opacity: 1;
 }
+
+ /* Card Section */
+ .row{
+  display: flex;
+  /* margin: 20px 20px 20px 20px; */
+  /* width: 70%; */
+ }
+
+ .card1, .card2 , .card3, .card4{
+    margin: 0px 10px;
+    /* height: 400px; */
+    /* padding: 10px; */
+ }
+
+ /* .Share{
+  display: flex;
+ } */
+
+ /* .card{
+  justify-content: space-around;
+  /* padding: 20px; */
+  /* background-color: red;
+  color:red;
+ }
+ .MuiCardActionArea-root {
+  justify-content: space-around;
+  padding: 20px;
+  /* background-color: red; */
+  /* color:red; */
+
+
+
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
