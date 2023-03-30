@@ -8,6 +8,7 @@ import ReactDOM from 'react-dom';
 
 import './index.css';
 import App from './App';
+// import Csed from './components/departments/Csed';
 // import * as serviceWorker from './serviceWorker';
 
 // ReactDOM.render(
@@ -23,7 +24,8 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App/>
+     {/* <Csed/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
