@@ -78,7 +78,8 @@ hr {
 #menu.navbar-default {
   /* background: linear-gradient(to right, #16222a, #3a6073); */
   /* background: linear-gradient(to left, #e1625e, #418ee6); */
-  background: linear-gradient(to right, #1b3040, #414345);
+  /* background: linear-gradient(to right, #1b3040, #414345); */
+  background: linear-gradient(to right, #232526, #414345);
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   opacity: 0.95;
@@ -211,7 +212,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../assets/logo/13.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -403,6 +404,7 @@ header .intro-text {
   opacity: 1;
 }
 
+<<<<<<< HEAD
  /* Card Section */
  .row{
   display: flex;
@@ -433,6 +435,16 @@ header .intro-text {
   /* color:red; */
 
 
+=======
+/* Card Section */
+
+/*
+.bg-image hover-overlay{
+  position: absolute;
+  height: 40vh;
+  width: fit-content;
+} */
+>>>>>>> 4444e246fb29724f74645199b4e4f13c74ae1964
 
 /* Testimonials Section */
 #testimonials {
@@ -484,13 +496,15 @@ header .intro-text {
 #team .team-img {
   width: 240px;
   border-radius: 50%;
+  align-items: center;
+  justify-content: space-around;
   /* background-color: #ededed;
   padding: 10px; */
 }
 #team .team-img:hover {
   width: 240px;
-  transform:scale(0.9); 
-  transition: 0.2s;
+  transform:scale(1.1); 
+  transition: 0.4s;
   /* animation: rotation 2s infinite linear; */
 }
 
@@ -515,7 +529,8 @@ header .intro-text {
   /* background: linear-gradient(to right, #00c9ff, #92fe9d); */
   /* background: linear-gradient(to top, #232526, #414345); */
   /* background: linear-gradient(to top, #232526, #4c4d4f); */
-  background: linear-gradient(to right, #1b3040, #414345);
+  /* background: linear-gradient(to right, #1b3040, #414345); */
+  background: linear-gradient(to top, #232526, #414345);
 
   color: rgba(255, 255, 255, 0.75);
 }
