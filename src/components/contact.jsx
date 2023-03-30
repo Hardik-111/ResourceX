@@ -21,10 +21,11 @@ export const Contact = (props) => {
     e.preventDefault();
     console.log(name, email, message);
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
+      .sendForm("service_uvln1y7", "template_elej1hx", e.target, "I8wthTornmC4fKFJ8")
       .then(
         (result) => {
-          console.log(result.text);
+          alert("We have received your message.\nThanks for reaching out to us!");
+
           clearState();
         },
         (error) => {
