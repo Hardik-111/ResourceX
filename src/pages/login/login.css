@@ -13,7 +13,7 @@
     display: flex;
     /* background: linear-gradient(to right, #232526, #414345); */
     /* background-image:url("../../../public/assets/logo/3.jpg"); */
-    background-image:url("../../../public/assets/logo/4.jpg");
+    background-image:url("../../../public/assets/img/signup-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -28,7 +28,8 @@
 .loginBox{
     height: 40%;
     padding: 20px;
-    background: linear-gradient(to right, #232526, #414345);
+    /* background: linear-gradient(to right, #232526, #414345); */
+    background-color: rgb(0 0 0 / 27%);
     border-radius: 10px;
     display: flex;
     /* align-items: center; */
@@ -53,31 +54,35 @@
     height: 50px;
     border-radius: 10px;
     border: none;
-    /* background-color: #c8bebe; */
-    background: linear-gradient(to right, #00c9ff, #92fe9d);
-    color: black;
+    background-color:#0277de;
+    /* background: linear-gradient(to right, #00c9ff, #92fe9d); */
+    color: white;
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
 }
 .loginForgot{
     text-align: center;
-    color:#0fabd2;
+    color:white;
 }
 .loginRegisterButton{
-    width: 60%;
+    width: 70%;
     align-self: center ;
     text-align: center;
     height: 50px;
     border-radius: 10px;
     border: none;
-    background-color: rgb(32, 210, 162);
-    color: #171717;
+    background-color: #0277de;
+    color: white;
     font-size: 17px;
     font-weight: 600;
     cursor: pointer;
     /* padding: 18px; */
     text-decoration: none;
+}
+
+a:hover{
+    color: #282727;
 }
 @media screen and (max-width: 350px) {
     .loginBox{

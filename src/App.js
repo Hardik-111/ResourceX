@@ -35,11 +35,7 @@
 
 import Home from "./pages/Home/Home";
 import Login from "./pages/login/Login";
-<<<<<<< HEAD
-// import Profile from "./pages/profile/Profile";
-=======
 import Profile from "./pages/profile/Profile";
->>>>>>> 1036aed9f0d21146d774c6335f929420fe391fdc
 import Register from "./pages/register/Register";
 import {
   BrowserRouter as Router,
@@ -56,22 +52,15 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/">
-<<<<<<< HEAD
-          <Home /> 
-=======
           <Home/>
->>>>>>> 1036aed9f0d21146d774c6335f929420fe391fdc
         </Route>
         <Route path="/login">{user ? <Redirect to="/" /> : <Login /> }</Route>
         <Route path="/register">
           {user ? <Redirect to="/" /> : <Register />}
         </Route>
-<<<<<<< HEAD
-=======
         {/* <Route path="/profile/:username">
           <Profile />
         </Route> */}
->>>>>>> 1036aed9f0d21146d774c6335f929420fe391fdc
       </Switch>
     </Router>
   );
@@ -93,9 +82,5 @@ export default App;
 //   );
 // };
 
-<<<<<<< HEAD
-//export default App;
-=======
 // export default App;
->>>>>>> 1036aed9f0d21146d774c6335f929420fe391fdc
 
