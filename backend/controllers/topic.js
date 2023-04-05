@@ -34,7 +34,11 @@ export const getMyTopic=async(req,res,next)=>{
  };
  export const addAllTopic=async (req,res,next)=>{
     try {
-        
+        const topic=await Topic.find();
+    res.status(200).json({
+        success:true,
+        topic,
+    })
     } catch (error) {
         next(error);
     }
